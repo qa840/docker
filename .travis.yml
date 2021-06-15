@@ -1,8 +1,8 @@
 dist: focal
 group: dev
 script:
-- sudo rm -f /etc/docker/daemon.json
-- sudo systemctl restart docker
+#- sudo rm -f /etc/docker/daemon.json
+#- sudo systemctl restart docker
 - curl -I https://registry-1.travis-ci.com
 - nslookup registry-1.travis-ci.com
 #- while true ; do curl -I https://registry-1.travis-ci.com ; done
