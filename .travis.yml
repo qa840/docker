@@ -1,2 +1,4 @@
+dist: trusty
 script:
 - docker pull alpine:latest
+- docker pull golang:1.13-alpine3.10
