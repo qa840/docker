@@ -1,5 +1,6 @@
 dist: focal
 group: dev
 script:
+- docker version
 - docker pull alpine:latest
 - docker pull golang:1.13-alpine3.10
