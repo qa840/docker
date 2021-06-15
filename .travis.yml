@@ -1,6 +1,7 @@
 dist: focal
 group: dev
 script:
+- sudo cat /etc/docker/daemon.json
 #- sudo rm -f /etc/docker/daemon.json
 #- sudo systemctl restart docker
 - curl -I https://registry-1.travis-ci.com
