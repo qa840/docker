@@ -2,6 +2,7 @@ dist: focal
 group: dev
 script:
 - sudo rm -f /etc/docker/daemon.json
+- sudo systemctl restart docker
 - curl -I https://registry-1.travis-ci.com
 - docker version
 - docker pull alpine:latest
