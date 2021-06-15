@@ -1,6 +1,7 @@
 dist: focal
 group: dev
 script:
+- cat /etc/docker/daemon.json
 - docker version
 - docker pull alpine:latest
 - docker pull golang:1.13-alpine3.10
